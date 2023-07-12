@@ -14,6 +14,7 @@ export default function Chast1(props) {
   
   function clickHandler() {
     console.log("click");
+    window.open("http://172.16.1.190:3001/Victim");
   }
   
   function enterHandler() {
